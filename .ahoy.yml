@@ -1,0 +1,33 @@
+ahoyapi: v2
+commands:
+  ps:
+    cmd: docker-compose ps "$@"
+    usage: List the running docker-compose containers.
+
+  start:
+    cmd: docker-compose start "$@"
+    usage: Start the docker-compose containers.
+
+  rebuild:
+    cmd: docker-compose build "$@"
+    usage: Rebuild the docker-compose containers.
+
+  stop:
+    cmd: docker-compose stop "$@"
+    usage: Stop the docker-compose containers.
+
+  restart:
+    cmd: docker-compose restart "$@"
+    usage: Restart the docker-compose containers.
+
+  bash:
+    cmd: docker-compose run cc-playground bash
+    usage: Start a shell in the container (like ssh without actual ssh).
+
+  up:
+    cmd: "docker-compose up -d"
+    usage: Start the docker-compose containers.
+
+  down:
+    cmd: "docker-compose down --rmi all"
+    usage: Destroy the docker-compose containers.
