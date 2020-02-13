@@ -1,0 +1,3 @@
+[alias]
+  clean-log = !sh -c \"git log --no-merges --pretty=format:'%C(yellow)%h %Cred%ad %Cgreen%an%Cgreen%d %Creset%s' --date=relative\"
+  cz = ./node_modules/.bin/git-cz
