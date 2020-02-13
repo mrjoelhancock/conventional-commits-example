@@ -1,0 +1,5 @@
+version: "3"
+services:
+  cc-playground:
+    container_name: conventional-commits-playground
+    build: "./"
