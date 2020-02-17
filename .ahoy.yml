@@ -21,7 +21,7 @@ commands:
     usage: Restart the docker-compose containers.
 
   bash:
-    cmd: docker-compose run cc-playground bash
+    cmd: docker-compose run -u bilbo cc-playground bash
     usage: Start a shell in the container (like ssh without actual ssh).
 
   up:
