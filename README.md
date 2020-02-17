@@ -23,7 +23,6 @@ _From the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 _From [Enhance your git log with conventional commits](https://dev.to/maxpou/enhance-your-git-log-with-conventional-commits-3ea4) by Maxence Poutord_
 
-
 The commit message should be structured as follows:
 
 ```sh
@@ -66,12 +65,12 @@ There are lots of ways to use the Conventional Commits standard in a project.
 
 ### Tools
 
-| Tool | Description |
-|:--|:--|
-| CommitLint | For checking commit message format. |
-| Husky | For automatic commit linting on commit. |
+| Tool           | Description                                      |
+| :------------- | :----------------------------------------------- |
+| CommitLint     | For checking commit message format.              |
+| Husky          | For automatic commit linting on commit.          |
 | Commitizen CLI | A CLI for crafting CC compliant commit messages. |
-| Git alias | A git alias for easy Commitizen CLI access. |
+| Git alias      | A git alias for easy Commitizen CLI access.      |
 
 ### CommitLint
 
@@ -167,6 +166,7 @@ Tell git to recognise this local aliases file to read aliases from.
 ```sh
 git config include.path '../.gitalias'
 ```
+
 In a real repo we would add a `postinstall` script to `package.json` to add this git config automatically.
 
 ```sh
@@ -211,7 +211,7 @@ We can run git hooks in our CI pipelines.
 ## Resources
 
 | Resource | URL |
-|:--|:--|
+| :-- | :-- |
 | Conventional&nbsp;Commits | https://www.conventionalcommits.org/en/v1.0.0/ |
 | CommitLint | https://github.com/conventional-changelog/commitlint#get-started--lets-chat---website |
 | Commitizen CLI | https://github.com/commitizen/cz-cli#commitizen-for-contributors |
@@ -264,19 +264,22 @@ Create a file called `.gitalias` with this content.
    cz = !sh -c \"./node_modules/.bin/git-cz\"
 ```
 
-```sh
-git config include.path '../.gitalias'
-```
-
-Add a `postinstall` script to `package.json`.
+Add a `postinstall` hook and script to `package.json`.
 
 ```sh
 // package.json
 {
   ...
+  "postinstall": "npm run post-install",
   "scripts": {
     ...
-    "postinstall": "git config include.path '../.gitalias'",
+    "post-install": "git config include.path '../.gitalias'",
   }
 }
+```
+
+Run the `post-install` script.
+
+```sh
+npm run post-install
 ```
