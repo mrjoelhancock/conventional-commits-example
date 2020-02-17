@@ -1,4 +1,38 @@
-# Conventional Commits
+[Let's get to the juice!](#thejiuce)
+
+# Working on this repo
+
+Setup.
+
+```sh
+npm install
+```
+
+then
+
+```sh
+npm run post-install
+```
+
+# Playing in the sandboxes
+
+Setup Docker environments.
+
+```sh
+ahoy up
+```
+
+Jump into the Docker container.
+
+```sh
+ahoy bash
+```
+
+Read .ahoy.yml for the rest.
+
+---
+
+# Conventional Commits<span id="thejuice"></span>
 
 This is a very brief explanation of the Conventional Commits standard and how to use it in your git projects.
 
