@@ -1,5 +1,5 @@
 [alias]
   cz = !sh -c \"./node_modules/.bin/git-cz\"
-  clean-log = !sh -c \"git log --no-merges --pretty=format:'%C(yellow)%h %Cred%ad %Cgreen%an%Cgreen%d %Creset%s' --date=relative\"
+  history = !sh -c \"git log --no-merges --pretty=format:'%C(yellow)%h %Cred%ad %Cgreen%an%Cgreen%d %Creset%s' --date=relative\"
   whereami = !sh -c \"git rev-parse --abbrev-ref HEAD\"
   holler = !sh -c \"echo "Holler!"\"

@@ -1,10 +1,10 @@
-To setup...
+To setup run this:
 
 ```sh
 npm install
 ```
 
-Then setup.
+Then run this:
 
 ```sh
 npm run post-install
