@@ -1,4 +1,4 @@
-[Let's get to the juice!](#thejiuce)
+[Let's get to the juice!](#thejuice)
 
 # Working on this repo
 
