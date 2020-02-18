@@ -91,7 +91,7 @@ And it makes commit message detail more informative.
 
 ![commit history](./readme-assets/commit-detail-1.png)
 
-With the consistant formatting comes the opportunity to automate change logs and other artifacts derived from the commit history.
+With the consistent formatting comes the opportunity to automate change logs and other artefacts derived from the commit history.
 
 ## How to use Conventional Commits in a project
 

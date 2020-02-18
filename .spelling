@@ -1,0 +1,19 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+semver
+vue.js
+lerna
+Maxence
+Poutord
+commitlint
+commitizen
+config
+npm
+package.json
+huskyfied
+lolcommits
+ahoy.yml
+tldr
