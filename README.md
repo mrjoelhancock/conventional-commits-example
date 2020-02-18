@@ -238,11 +238,10 @@ We can run git hooks in our CI pipelines.
 
 | Resource | URL |
 | :-- | :-- |
-| Conventional&nbsp;Commits | https://www.conventionalcommits.org/en/v1.0.0/ |
-| CommitLint | https://github.com/conventional-changelog/commitlint#get-started--lets-chat---website |
-| Commitizen CLI | https://github.com/commitizen/cz-cli#commitizen-for-contributors |
-| Husky | https://github.com/typicode/husky#husky |
-| LOLCommits | https://github.com/lolcommits/lolcommits#lolcommits |
+| Conventional&nbsp;Commits | [https://www.conventionalcommits.org/](https://www.conventionalcommits.org/en/v1.0.0/) |
+| CommitLint | [https://github.com/conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint#get-started--lets-chat---website) |
+| Commitizen CLI | [https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli#commitizen-for-contributors) |
+| Husky | [https://github.com/typicode/husky](https://github.com/typicode/husky#husky) |
 
 ---
 
