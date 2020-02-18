@@ -304,16 +304,13 @@ Add a `postinstall` hook and script to `package.json`.
 // package.json
 {
   ...
-  "postinstall": "npm run post-install",
   "scripts": {
     ...
-    "post-install": "git config include.path '../.gitalias'",
+    "postinstall": "git config include.path '../.gitalias'",
   }
 }
 ```
 
-Run the `post-install` script.
-
 ```sh
-npm run post-install
+npm install
 ```

@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "postinstall": "npm run post-install",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "post-install": "git config include.path '../.gitalias'"
+    "postinstall": "git config include.path '../.gitalias'"
   },
   "husky": {
     "hooks": {
