@@ -95,7 +95,7 @@ With the consistent formatting comes the opportunity to automate change logs and
 
 ## How to use Conventional Commits in a project
 
-There are lots of ways to use the Conventional Commits standard in a project.
+There are lots of ways to use the Conventional Commits standard in a project. This approach, in my view, is a good balance of flexibility, enforcement of the standard and controlled scope.
 
 ### Tools
 
