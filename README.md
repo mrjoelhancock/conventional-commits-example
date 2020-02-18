@@ -45,7 +45,7 @@ This is a very brief explanation of the Conventional Commits standard and how to
 
 _From the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) homepage._
 
-> Project that uses this convention: Angular, Vue.js, Gatsby (almost), Lerna (almost), jest (almost).
+> Projects that uses this convention: Angular, Vue.js, Gatsby (almost), Lerna (almost), jest (almost).
 
 _From [Enhance your git log with conventional commits](https://dev.to/maxpou/enhance-your-git-log-with-conventional-commits-3ea4) by Maxence Poutord_
 
@@ -238,10 +238,12 @@ We can run git hooks in our CI pipelines.
 
 | Resource | URL |
 | :-- | :-- |
-| Conventional&nbsp;Commits | [https://www.conventionalcommits.org/](https://www.conventionalcommits.org/en/v1.0.0/) |
-| CommitLint | [https://github.com/conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint#get-started--lets-chat---website) |
-| Commitizen CLI | [https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli#commitizen-for-contributors) |
-| Husky | [https://github.com/typicode/husky](https://github.com/typicode/husky#husky) |
+| Conventional&nbsp;Commits | [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/) |
+| CommitLint | [github.com/conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint#get-started--lets-chat---website) |
+| Commitizen CLI | [github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli#commitizen-for-contributors) |
+| Husky | [github.com/typicode/husky](https://github.com/typicode/husky#husky) |
+| This repo | [github.com/mrjoelhancock/conventional-commits-example](https://github.com/mrjoelhancock/conventional-commits-example) |
+| Gist of the basics | [gist.github.com/mrjoelhancock/...](https://gist.github.com/mrjoelhancock/105e7c483b667ea96cd40a7d1f6359eb) |
 
 ---
 
