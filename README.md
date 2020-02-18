@@ -8,12 +8,6 @@ Setup.
 npm install
 ```
 
-then
-
-```sh
-npm run post-install
-```
-
 # Playing in the sandboxes
 
 Setup Docker environments.
@@ -27,8 +21,6 @@ Jump into the Docker container.
 ```sh
 ahoy bash
 ```
-
-Read .ahoy.yml for the rest.
 
 ---
 
