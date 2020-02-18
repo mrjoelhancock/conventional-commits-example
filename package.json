@@ -6,6 +6,7 @@
   "postinstall": "npm run post-install",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:spellcheck": "./node_modules/.bin/mdspell '**/*.md' '!**/node_modules/**/*.md'",
     "post-install": "git config include.path '../.gitalias'"
   },
   "husky": {
@@ -24,6 +25,7 @@
     "cz-conventional-changelog": "^3.1.0",
     "eslint": "^6.8.0",
     "husky": "^4.2.3",
+    "markdown-spellcheck": "^1.3.1",
     "prettier": "^1.19.1"
   },
   "config": {
