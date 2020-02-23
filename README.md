@@ -22,8 +22,6 @@ Jump into the Docker container.
 ahoy bash
 ```
 
----
-
 # Conventional Commits<span id="thejuice"></span>
 
 This is a very brief explanation of the Conventional Commits standard and how to use it in your git projects.
@@ -34,8 +32,6 @@ This is a very brief explanation of the Conventional Commits standard and how to
 - How to use Conventional Commits in a project
 - Food for thought
 - Resources
-
----
 
 ## What is Conventional Commits?
 
@@ -244,8 +240,6 @@ We can run git hooks in our CI pipelines.
 | Husky | [github.com/typicode/husky](https://github.com/typicode/husky#husky) |
 | This repo | [github.com/mrjoelhancock/conventional-commits-example](https://github.com/mrjoelhancock/conventional-commits-example) |
 | Gist of the basics | [gist.github.com/mrjoelhancock/...](https://gist.github.com/mrjoelhancock/105e7c483b667ea96cd40a7d1f6359eb) |
-
----
 
 ## Too long? Don't read<span id="tldr"></span>
 
