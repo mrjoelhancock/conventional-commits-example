@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:spellcheck": "./node_modules/.bin/mdspell '**/*.md' '!**/node_modules/**/*.md'",
-    "postinstall": "git config include.path '../.gitalias'"
+    "postinstall": "git config include.path '../.gitalias'",
+    "postmerge": "./scripts/git-post-merge.sh"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "post-merge": "npm run postmerge"
     }
   },
   "keywords": [],
