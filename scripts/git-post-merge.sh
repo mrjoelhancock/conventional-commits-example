@@ -13,6 +13,6 @@ check_run() {
 # Run `npm install` if package.json changed.
 check_run package.json "npm install"
 # Run `bower install` if `bower.json` changed.
-check_run bower.json "bower install"
+# check_run bower.json "bower install"
 # Install composer dependencies if `composer.json` has changed.
-check_run composer.json "composer install"
+# check_run composer.json "composer install"
